@@ -1,3 +1,9 @@
+import HomePage from './pages/HomePage';
+import { createRoot } from 'react-dom/client';
+import './global.css';
+
+createRoot(document.querySelector('#app')).render(<HomePage />);
+
 let upLikes = 0;
 let downLikes = 0;
 
